@@ -53,8 +53,8 @@ class PieChartViewController: UIViewController {
         startDegree = endDegree
         endDegree = startDegree+(360*30/100)
         percentagePath = UIBezierPath()
-        percentagePath.move(to: CGPoint(x: center.x-10, y: center.y))
-        percentagePath.addArc(withCenter:CGPoint(x: center.x-10, y: center.y) , radius: radius, startAngle: startDegree*degree, endAngle: endDegree*degree, clockwise: true)
+        percentagePath.move(to: CGPoint(x: center.x-15, y: center.y))
+        percentagePath.addArc(withCenter:CGPoint(x: center.x-15, y: center.y) , radius: radius, startAngle: startDegree*degree, endAngle: endDegree*degree, clockwise: true)
 
         let percentageLayer2 = CAShapeLayer()
         percentageLayer2.fillColor =  CGColor(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1), alpha: 1)
@@ -65,8 +65,8 @@ class PieChartViewController: UIViewController {
         startDegree = endDegree
         endDegree = startDegree+(360*15/100)
         percentagePath = UIBezierPath()
-        percentagePath.move(to: CGPoint(x: center.x-10, y: center.y))
-        percentagePath.addArc(withCenter:CGPoint(x: center.x-10, y: center.y) , radius: radius, startAngle: startDegree*degree, endAngle: endDegree*degree, clockwise: true)
+        percentagePath.move(to: CGPoint(x: center.x-15, y: center.y))
+        percentagePath.addArc(withCenter:CGPoint(x: center.x-15, y: center.y) , radius: radius, startAngle: startDegree*degree, endAngle: endDegree*degree, clockwise: true)
 
         let percentageLayer3 = CAShapeLayer()
         percentageLayer3.fillColor =  CGColor(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1), alpha: 1)
