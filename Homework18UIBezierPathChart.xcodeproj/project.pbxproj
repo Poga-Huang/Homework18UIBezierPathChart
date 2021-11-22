@@ -13,6 +13,10 @@
 		D6885C91274B21A900709816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6885C8F274B21A900709816 /* Main.storyboard */; };
 		D6885C93274B21AC00709816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6885C92274B21AC00709816 /* Assets.xcassets */; };
 		D6885C96274B21AC00709816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6885C94274B21AC00709816 /* LaunchScreen.storyboard */; };
+		D6885CA4274B32F900709816 /* KobeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6885CA3274B32F900709816 /* KobeImageView.swift */; };
+		D6885CA6274B338E00709816 /* Kobe2ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6885CA5274B338E00709816 /* Kobe2ImageView.swift */; };
+		D6885CAA274B5C9B00709816 /* DonutChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6885CA9274B5C9B00709816 /* DonutChartViewController.swift */; };
+		D6885CAC274B712B00709816 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6885CAB274B712B00709816 /* PieChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D6885C92274B21AC00709816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6885C95274B21AC00709816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6885C97274B21AC00709816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6885CA3274B32F900709816 /* KobeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobeImageView.swift; sourceTree = "<group>"; };
+		D6885CA5274B338E00709816 /* Kobe2ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kobe2ImageView.swift; sourceTree = "<group>"; };
+		D6885CA9274B5C9B00709816 /* DonutChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartViewController.swift; sourceTree = "<group>"; };
+		D6885CAB274B712B00709816 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				D6885C8B274B21A900709816 /* SceneDelegate.swift */,
 				D6885C8D274B21A900709816 /* ViewController.swift */,
 				D6885C8F274B21A900709816 /* Main.storyboard */,
+				D6885CA9274B5C9B00709816 /* DonutChartViewController.swift */,
+				D6885CAB274B712B00709816 /* PieChartViewController.swift */,
+				D6885CA5274B338E00709816 /* Kobe2ImageView.swift */,
+				D6885CA3274B32F900709816 /* KobeImageView.swift */,
 				D6885C92274B21AC00709816 /* Assets.xcassets */,
 				D6885C94274B21AC00709816 /* LaunchScreen.storyboard */,
 				D6885C97274B21AC00709816 /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6885CAA274B5C9B00709816 /* DonutChartViewController.swift in Sources */,
 				D6885C8E274B21A900709816 /* ViewController.swift in Sources */,
+				D6885CA6274B338E00709816 /* Kobe2ImageView.swift in Sources */,
+				D6885CA4274B32F900709816 /* KobeImageView.swift in Sources */,
 				D6885C8A274B21A900709816 /* AppDelegate.swift in Sources */,
+				D6885CAC274B712B00709816 /* PieChartViewController.swift in Sources */,
 				D6885C8C274B21A900709816 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
